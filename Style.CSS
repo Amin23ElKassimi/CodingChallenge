@@ -1,0 +1,89 @@
+
+/* ----------- BODY ----------- */
+body{
+    background-image: url(IMG/background.jpg);
+}
+/* Conteiner Format */
+.container {
+        width: 3500px;
+        margin: auto;
+        margin-top: 200px;
+        background-color: rgba(42, 44, 58, 0.658);
+        box-sizing: border-box;
+        padding: 200px;
+       
+
+}
+
+/* ----------- HEADER ----------- */
+
+header{
+        text-align: center;
+}
+
+
+#LogoName {   
+            font-size: 150px;
+            color: rgb(2, 202, 8);
+}
+/* Button Utilites */
+.buttons{
+        background-color: rgb(2, 202, 8);
+        margin-left: 5%;
+        margin-right: 5%;
+        height: 200px;
+        padding: 40px;
+        box-sizing: border-box;
+}
+
+header input[type=submit]{        
+                        padding: 20px;
+                        margin: 8px 0;
+                        font-family: 'Arial';
+                        font-size: 50px; }
+
+header input[type=submit]:hover{
+                                background-color: aqua;}            
+    
+
+/* ----------- MAIN ----------- */
+input[type=checkbox]{   
+                      width: 50px;
+                      height: 50px;}
+
+.nameuser{
+        font-size: 90px;
+        color: white;
+        display: inline;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.position{
+        font-size: 60px;
+        color: white;
+        display: inline;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+} 
+
+.square{
+        height: 150px;
+        border-style: outset;
+        border-width: 10px;
+        border-radius: 20px;
+}
+#user01>.square{
+        width: 1500px;
+        border-color: rgb(241, 9, 9) ;
+        background-color: rgb(241, 9, 9, 0.952);
+}
+#user02>.square{
+        width: 2500px;
+        border-color: rgb(21, 102, 224) ;
+        background-color: rgba(21, 102, 224, 0.952);
+}
+#user03>.square{
+        width: 1000px;
+        border-color: rgba(47, 224, 47) ;
+        background-color: rgba(79, 235, 32, 0.952);
+}
+
